@@ -1,0 +1,249 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display&family=Source+Code+Pro&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abril Fatface', cursive;
+  }
+  .container{
+    position: relative;
+    width: 100%;
+    height: 100%;  
+     /* 1vh=100%  */
+     background-color:#3AAFA9;
+  }
+  nav{
+
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #17252A;
+    
+  }
+ nav .logo{
+    width: 70px;
+    height: 70px;
+ }
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+        /* top bottom 10px and right left 20px */
+   
+ }
+ nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+ }
+ /* psudo class-to get special effect on mouse hover 
+ 
+ selector:psudo-class-name{peroperty:value}
+ */
+
+
+ nav ul li a:hover{
+  color: rgb(0, 213, 255);
+ }
+ .title{
+  margin-left: 8%;
+  margin-top: 13%;
+ }
+ .title h1{
+  font-size: 50px;
+  color: #FEFFFF;
+  margin-bottom: 20px;
+ }
+ .title span{
+  color: #17252A;
+ }
+ .title p{
+  color: #17252A;
+  font-weight: bold;
+  line-height: 30px;
+ }
+ .title a{
+  background-color: black;
+  padding: 10px 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+ }
+ .images{
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  top:130px ;
+ 
+  right: 20px;
+  bottom: 0;
+  
+ }
+ .image{
+  height: 400px;
+  width: 500px;
+  margin-top: 0;
+ }
+ #about{
+  margin-right: 8%;
+  margin-left: 8%;
+  margin-top: 13%;
+ }
+ .heading{
+  text-align: center;
+ 
+  
+ }
+.heading h2{
+  font-size: 40px;
+  color: rgb(203, 200, 200);
+}
+.heading span{
+  font-size: 25px;
+  color: rgb(14, 13, 14);
+}
+
+
+.about-img img{
+  width: 70%;
+  border-radius: 8px;
+}
+.about-content{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 100px;
+}
+.about-text{
+   font-size: 18px;
+   font-weight: 500;
+   text-align: justify;
+   margin-top: 30px;
+}
+.infermation{
+  margin: 1rem 0 1.4rem;
+ margin-top: 30px;
+}
+
+.infermation .info-box{
+
+  display:flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.infermation .info-box span{
+
+  font-weight:500;
+  margin-left: 15px;
+
+}
+#skills{
+  margin-left: 8%;
+  margin-top: 13%;
+  margin-right: 8%;
+}
+.skill-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 2rem;
+}
+.skill-img img{
+  width: 70%;
+  
+  object-position: center;
+  padding-left: 4rem;
+}
+.barbox{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.barbox h3{
+  font-size: 25px;
+  font-weight: 800;
+
+}
+.barbox h3 span{
+  font-size: 23px;
+  font-weight: 700;
+
+}
+.light-bar{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: yellow;
+  border-radius: 8px;
+}
+.percent-bar{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: rgb(234, 15, 15);
+  border-radius: 8px;
+
+} 
+.html-bar{
+  width: 80%;
+}
+.css-bar{
+  width:70% ;
+}
+.js-bar{
+  width: 70%;
+
+}
+.angular-bar{
+  width: 50%;
+}
+.contact{
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 15%;
+
+}
+.iconsdiv{
+  margin-top: 5%;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.ic{
+  width: 50px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  background-color: #070707;
+
+}
+.ic i{
+  font-size: 20px;
+
+}
+.ic i:hover{
+
+  color: white;
+}
+footer{
+  margin-top: 2rem;
+  color: rgb(61, 54, 54);
+}
+footer p{
+
+  align-items: center;
+}
